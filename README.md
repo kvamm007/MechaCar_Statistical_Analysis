@@ -41,14 +41,16 @@ For the full sample (including all lot numbers) the P value is 0.06. Since that 
 
 Individual lots compared to the full sample population mean of 1,500:
 
- ![lot1 t-test](https://user-images.githubusercontent.com/85597801/137787398-496f61e5-5003-4dd0-9d22-2182e82ca7ca.png)
+ 
 
  - Lot 1: P value is 1.0 which means we are unable to reject the null hypothesis, and we are able to conclude that the true mean of lot 1 is 1,500 which matches the overall population mean.
- ![lot2 t-test](https://user-images.githubusercontent.com/85597801/137787424-704f595d-6a7a-43e7-8fc1-2ef46a67b1cc.png)
+ ![lot1 t-test](https://user-images.githubusercontent.com/85597801/137787398-496f61e5-5003-4dd0-9d22-2182e82ca7ca.png)
 
  - Lot 2: P value is 0.6072 which means we are unable to reject the null hypothesis, and we are able to conclude that the true mean of lot 2 is 1,500, which matches the overall population mean. 
+  ![lot2 t-test](https://user-images.githubusercontent.com/85597801/137787424-704f595d-6a7a-43e7-8fc1-2ef46a67b1cc.png)
+  
  - Lot 3: P value is 0.04 which falls within our confidence interval of 0.05 or less. This means for lot 3, we ARE able to reject the null hypothesis and conclude that the true mean of lot 3 is NOT equal to 1,500, the mean of the full population. 
-![lot3 t-test](https://user-images.githubusercontent.com/85597801/137787451-bdc35a74-d1a0-4cd0-b647-bb79a44d6513.png)
+  ![lot3 t-test](https://user-images.githubusercontent.com/85597801/137787451-bdc35a74-d1a0-4cd0-b647-bb79a44d6513.png)
 
 Lot 1 & 2 matching the overall sample population mean with lot 3 not matching fits with our previous conclusion that the data set for lot 3 is out of bounds based on the variance, and we may not be able to use those springs. 
 
